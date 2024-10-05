@@ -39,3 +39,44 @@
     margin-left: 190px;
     margin-top: 20px;
   }
+  
+  @media only screen and (max-width: 400px) {
+    .container {
+      padding: 10px; 
+    }
+  
+    .header {
+      display: flex; 
+      justify-content: right;
+      padding: 15px;
+      gap: 20px; 
+    }
+  
+    .header ul {
+      padding: 0; 
+      margin: 0; 
+    }
+  
+    h1 {
+      font-size: 28px; 
+      text-align: center; 
+    }
+  
+    h2 {
+      font-size: 20px; 
+      text-align: center; 
+    }
+  
+    .para {
+    
+      justify-content: center; 
+      margin-top: 0; 
+     text-align: center;
+    }
+  
+    .intro {
+      margin-left: 0; 
+      margin-top: 15px; 
+    }
+  
+  }
